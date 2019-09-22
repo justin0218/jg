@@ -1575,7 +1575,7 @@
       "publicPath": "static/chunks/commons.35c1658130ed2804468b.js"
     }
   ],
-  "../icon": [
+  "antd/lib/icon": [
     {
       "id": "Pbn2",
       "name": "./node_modules/antd/lib/icon/index.js",
@@ -2185,7 +2185,7 @@
       "publicPath": "static/chunks/commons.35c1658130ed2804468b.js"
     }
   ],
-  "./locale/en_US": [
+  "../date-picker/locale/en_US": [
     {
       "id": "WmZF",
       "name": "./node_modules/antd/lib/date-picker/locale/en_US.js",
@@ -3075,7 +3075,7 @@
       "publicPath": "static/chunks/commons.35c1658130ed2804468b.js"
     }
   ],
-  "../../time-picker/locale/en_US": [
+  "../time-picker/locale/en_US": [
     {
       "id": "kM4J",
       "name": "./node_modules/antd/lib/time-picker/locale/en_US.js",
@@ -3779,7 +3779,7 @@
       "publicPath": "static/chunks/commons.35c1658130ed2804468b.js"
     }
   ],
-  "./../../../webpack/buildin/global.js": [
+  "./../../webpack/buildin/global.js": [
     {
       "id": "yLpj",
       "name": "./node_modules/webpack/buildin/global.js",

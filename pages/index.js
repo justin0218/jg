@@ -130,7 +130,7 @@ export default class extends React.Component {
       return;
     }
     document.getElementById("loadingToast").style.display = "block"
-    let res = await Axios.post("http://192.168.0.106:29001/jg/appointment/create",this.state)
+    let res = await Axios.post("http://momoman.cn/jg/appointment/create",this.state)
     if(res.status == 200){
       if(check_project == 1){
         location.href = "https://mp.weixin.qq.com/s/v5ERTA7B3aXjecPVMzrYNA"

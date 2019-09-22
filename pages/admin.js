@@ -29,7 +29,7 @@ export default class extends React.Component {
 
   async loadList(serachParam){
     this.setState({loading:true})
-    let res = await Axios.get(`http://localhost:29001/jg/appointment/list?${queryString.stringify(serachParam)}`)
+    let res = await Axios.get(`http://momoman.cn/jg/appointment/list?${queryString.stringify(serachParam)}`)
     console.log(res);
     this.setState({data:res.data,loading:false})
   }
