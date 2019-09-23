@@ -1575,7 +1575,7 @@
       "publicPath": "static/chunks/commons.35c1658130ed2804468b.js"
     }
   ],
-  "antd/lib/icon": [
+  "../icon": [
     {
       "id": "Pbn2",
       "name": "./node_modules/antd/lib/icon/index.js",
@@ -2145,7 +2145,7 @@
       "publicPath": "static/chunks/commons.35c1658130ed2804468b.js"
     }
   ],
-  "../modules/_core": [
+  "../../modules/_core": [
     {
       "id": "WEpk",
       "name": "./node_modules/core-js/library/modules/_core.js",
@@ -2433,7 +2433,7 @@
       "publicPath": "static/chunks/commons.35c1658130ed2804468b.js"
     }
   ],
-  "../locale/en_US": [
+  "rc-calendar/lib/locale/en_US": [
     {
       "id": "aYrm",
       "name": "./node_modules/rc-calendar/lib/locale/en_US.js",
@@ -3075,7 +3075,7 @@
       "publicPath": "static/chunks/commons.35c1658130ed2804468b.js"
     }
   ],
-  "../../time-picker/locale/en_US": [
+  "../time-picker/locale/en_US": [
     {
       "id": "kM4J",
       "name": "./node_modules/antd/lib/time-picker/locale/en_US.js",
@@ -3867,7 +3867,7 @@
       "publicPath": "static/chunks/commons.35c1658130ed2804468b.js"
     }
   ],
-  "component-indexof": [
+  "indexof": [
     {
       "id": "zs13",
       "name": "./node_modules/component-indexof/index.js",

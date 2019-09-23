@@ -255,7 +255,7 @@ export default class extends React.Component {
                 <div className="weui-cell__bd" id="historys">
                   <input className="weui-input" onChange={(e)=>{
                     this.setState({history: e.target.value})
-                  }} value={history} placeholder="请选择既往病史" type="text" />
+                  }} value={history} placeholder="请填写既往病史" type="text" />
                 </div>
               </div>
               <div className="weui-cell">

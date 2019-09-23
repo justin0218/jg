@@ -3774,7 +3774,7 @@ function (_React$Component) {
           });
         },
         value: history,
-        placeholder: "\u8BF7\u9009\u62E9\u65E2\u5F80\u75C5\u53F2",
+        placeholder: "\u8BF7\u586B\u5199\u65E2\u5F80\u75C5\u53F2",
         type: "text",
         __source: {
           fileName: _jsxFileName,
