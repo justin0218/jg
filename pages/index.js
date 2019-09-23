@@ -18,7 +18,7 @@ export default class extends React.Component {
     check_project:1,
     check_project_lable:"",
     check_method:1,
-    history:1,
+    history:"",
     allergy_history:"",
     history_lable:"",
     remark:"",
@@ -65,7 +65,11 @@ export default class extends React.Component {
 
          },
          onConfirm: function (result) {
-             self.setState({check_project_lable:result[0].label,check_project:result[0].value})
+             let is70 = false
+             if (result[0].value == 5 || result[0].value == 6){
+                is70 = true
+             }
+             self.setState({check_project_lable:result[0].label,check_project:result[0].value,is70,check_method:is70 ? 1:self.state.check_method})
          },
          id: 'checkProJect'
       });
@@ -248,8 +252,10 @@ export default class extends React.Component {
               </div>
               <div className="weui-cell">
                 <div className="weui-cell__hd"><label className="weui-label">既往病史</label></div>
-                <div className="weui-cell__bd" onClick={this.choiceAllergyHistory.bind(this)} id="historys">
-                  <input className="weui-input" disabled={true} value={history_lable} placeholder="请选择既往病史" type="text" />
+                <div className="weui-cell__bd" id="historys">
+                  <input className="weui-input" onChange={(e)=>{
+                    this.setState({history: e.target.value})
+                  }} value={history} placeholder="请选择既往病史" type="text" />
                 </div>
               </div>
               <div className="weui-cell">

@@ -98,10 +98,7 @@ export default class extends React.Component {
       {
         title: '既往史',
         dataIndex: 'history',
-        key: 'history',
-        render:(a,b,c)=>{
-           return <span>{historys.find((v)=>{return v.value == b.history}).label}</span>
-        }
+        key: 'history'
       },
       {
         title: '过敏史',

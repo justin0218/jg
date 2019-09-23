@@ -17,24 +17,19 @@
   },
   "chunks": {
     "byName": {
-      "static/VDHFyvLCWle5NimE8nV0K/pages/_app.js": 0,
-      "static/VDHFyvLCWle5NimE8nV0K/pages/_document.js": 1,
-      "static/VDHFyvLCWle5NimE8nV0K/pages/_error.js": 2,
-      "static/VDHFyvLCWle5NimE8nV0K/pages/admin.js": 3,
-      "static/VDHFyvLCWle5NimE8nV0K/pages/index.js": 4,
-      "static/Qb2HdOdY2ztAlbcmqyiwm/pages/_app.js": 5,
-      "static/Qb2HdOdY2ztAlbcmqyiwm/pages/_document.js": 6,
-      "static/Qb2HdOdY2ztAlbcmqyiwm/pages/_error.js": 7,
-      "static/Qb2HdOdY2ztAlbcmqyiwm/pages/admin.js": 8,
-      "static/Qb2HdOdY2ztAlbcmqyiwm/pages/index.js": 9
+      "static/15Qh~Lfut1aEFixlgeVg_/pages/_app.js": 0,
+      "static/15Qh~Lfut1aEFixlgeVg_/pages/_document.js": 1,
+      "static/15Qh~Lfut1aEFixlgeVg_/pages/_error.js": 2,
+      "static/15Qh~Lfut1aEFixlgeVg_/pages/admin.js": 3,
+      "static/15Qh~Lfut1aEFixlgeVg_/pages/index.js": 4
     },
     "bySource": {},
     "usedIds": [
-      5,
-      6,
-      7,
-      8,
-      9
+      0,
+      1,
+      2,
+      3,
+      4
     ]
   }
 }
